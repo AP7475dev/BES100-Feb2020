@@ -1,0 +1,41 @@
+BES 100
+
+Jeff will step you through the first part:
+
+Open the Open Text SOCKS Client
+Make sure it is enabled.
+
+Click the edit (in edit this profile) link.
+
+Disable all the proxies.
+Add one with the following information:
+
+Name*: Server
+Server Address*: 10.250.7.36
+Port: 1080
+Type: SOCKS 5
+DNS Resolution: Resolve Hosts Remotely
+Authentication Type*: Blue Coat HTTP
+
+Click the OK, then Save buttons.
+
+
+Using Chrome, go to https://r.labs.azure.com/virtualmachines
+
+Click the "Sign In" button - use your Progressive email. It should not ask you for a password.
+
+It will probably say you have nothing there - or, maybe something from the Front-End Web Training.
+
+FIRST TIME ONLY - past this url into the same browser window:
+https://labs.azure.com/register/par4ttbc
+
+You should now have a VM. Start it.
+
+When it is started, you can hit the connect button (the little computer icon).
+
+Hit ok until you get the Log In.
+The password is:
+
+ProgressiveITURocks!
+
+ 
