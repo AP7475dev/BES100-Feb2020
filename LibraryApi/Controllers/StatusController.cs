@@ -25,7 +25,7 @@ namespace LibraryApi.Controllers
         }
 
         [HttpGet("shoes")]
-        public ActionResult GetSomeShoes([FromQuery] string color = "All")
+        public ActionResult GetSomeShoes([FromQuery] string color = "all")
         {
             return Ok($"Getting you shoes of color {color}");
         }
